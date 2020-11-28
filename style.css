@@ -1,0 +1,64 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+:root {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+.header {
+  font-size: 4em;
+  text-align: center;
+  padding: 20px;
+  background-color: #e0e0e0;
+  margin-bottom: 1em;
+}
+
+.taskbox,
+.timebox {
+  border: 1px solid black;
+  padding: 20px;
+  margin: 0 auto 1em;
+  max-width: 800px;
+
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  align-content: center;
+}
+
+button {
+  font-size: 1.3em;
+  padding: 3px 12px;
+  border-radius: 3px;
+  margin: 0 10px 10px 0;
+}
+
+.buttonWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+input {
+  margin-bottom: 1em;
+  padding: 10px;
+}
+
+h2 {
+  margin-bottom: 1em;
+}
+
+.clock {
+  margin-bottom: 10px;
+}
